@@ -1,0 +1,22 @@
+#about img {
+    width: 100%;
+    margin-top: -70px;
+    height: 100%;
+}
+
+
+@media(max-width:768px) {
+    #about .row {
+        flex-direction: column-reverse;
+    }
+}
+
+@media(max-width:576px) {
+    #about h1 {
+        font-size: 35px;
+    }
+
+    #about img {
+        text-align: center;
+    }
+}

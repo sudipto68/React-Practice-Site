@@ -1,0 +1,15 @@
+.nav-text{
+    color: black !important;
+    padding: 5px;
+    margin-left: 8px;
+    text-decoration: none !important;
+}
+.nav-text:hover{
+    color: lightblue !important;
+    border-bottom: 1px solid #535678;
+}
+@media(max-width:576px){
+    .nav-text:hover {
+        border-bottom-style: none;
+    }
+}
